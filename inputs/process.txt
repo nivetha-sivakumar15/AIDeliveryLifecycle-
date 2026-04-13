@@ -1,0 +1,6 @@
+1. User authentication with login validation and account lock after 3 failed attempts
+2. Product browsing with filtering and availability check
+3. Add to cart with stock validation
+4. Apply coupon with validation rules
+5. Payment processing with retry logic
+6. Order confirmation and notification 

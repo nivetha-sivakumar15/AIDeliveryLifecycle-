@@ -1,0 +1,37 @@
+Summary,Description,Issue Type
+User Authentication,"As a registered user, I want to log in using my email and password so that I can securely access my account.
+
+Acceptance Criteria:
+- Given I enter a valid email and password, When I click login, Then I should be successfully authenticated into the system.
+- Given I have failed login attempts, When the failure count exceeds 3, Then my account should be automatically locked.
+",Story
+Product Discovery,"As a user, I want to browse and filter products so that I can find specific items I am interested in purchasing.
+
+Acceptance Criteria:
+- Given I am on the product catalog page, When I apply filters, Then the system should display only the products that match my selected criteria.
+",Story
+Shopping Cart Management,"As a user, I want to add items to my shopping cart so that I can proceed to checkout with my selected products.
+
+Acceptance Criteria:
+- Given I attempt to add an item to the cart, When the system checks product availability, Then the item should only be added if it is currently in stock.
+- Given an item is unavailable, When I attempt to add it to the cart, Then the system should prevent the action and inform me of the stock status.
+",Story
+Checkout and Promotions,"As a customer, I want to apply discount coupons during checkout so that I can receive a price reduction on my order.
+
+Acceptance Criteria:
+- Given I have a valid coupon code, When I apply it during checkout, Then the order total should be updated to reflect the discount.
+- Given I enter an invalid or expired coupon code, When I attempt to apply it, Then the system should display an error message and not apply any discount.
+",Story
+Payment Processing,"As a customer, I want to pay for my order using a credit card so that I can finalize my purchase.
+
+Acceptance Criteria:
+- Given I enter my credit card details, When I submit payment, Then the system should process the transaction.
+- Given a payment failure occurs, When I attempt to retry, Then I should be allowed a maximum of 2 retry attempts.
+- Given I have exhausted 2 payment retries without success, When the payment fails again, Then the order should be automatically cancelled.
+",Story
+Order Fulfillment,"As a customer, I want to receive an order confirmation after a successful purchase so that I have a record of my transaction.
+
+Acceptance Criteria:
+- Given a successful payment processing, When the order is confirmed, Then an order confirmation should be generated.
+- Given a generated order confirmation, When the system finishes processing, Then a confirmation email should be sent to my registered email address.
+",Story

@@ -1,0 +1,29 @@
+[
+  {
+    "epic": "User Authentication",
+    "user_story": "As a registered user, I want to log in to the application using my credentials so that I can access my private dashboard.",
+    "acceptance_criteria": [
+      "Given the user is on the login page, When they enter a valid email and password and click 'Submit', Then they are redirected to the dashboard.",
+      "Given the user enters an incorrect password, When they click 'Submit', Then an error message 'Invalid email or password' is displayed.",
+      "Given the login page is loaded, When the user leaves the email field empty, Then the 'Submit' button remains disabled."
+    ]
+  },
+  {
+    "epic": "User Authentication",
+    "user_story": "As a user who forgot their password, I want to request a password reset link so that I can regain access to my account.",
+    "acceptance_criteria": [
+      "Given the user is on the login page, When they click 'Forgot Password', Then they are prompted to enter their registered email address.",
+      "Given the user provides a valid registered email, When they click 'Send Reset Link', Then an automated email containing a secure token is sent to that address.",
+      "Given the user provides an email not found in the system, When they click 'Send Reset Link', Then a generic message is displayed stating an email will be sent if the account exists."
+    ]
+  },
+  {
+    "epic": "Account Management",
+    "user_story": "As a new visitor, I want to create a new account so that I can begin using the platform services.",
+    "acceptance_criteria": [
+      "Given the registration form is displayed, When the user provides a unique email, a strong password, and completes all required fields, Then a new user record is created in the database.",
+      "Given the user enters an email that is already registered, When they attempt to sign up, Then they receive a notification that the email is already in use.",
+      "Given the user successfully registers, When the process is complete, Then they receive a confirmation email to verify their account."
+    ]
+  }
+]

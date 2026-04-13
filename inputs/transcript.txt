@@ -1,0 +1,9 @@
+User logs into the system using email and password. If login fails more than 3 times, the account gets locked. 
+
+After login, the user browses products, applies filters, and adds items to the cart. The system checks product availability before adding to cart.
+
+During checkout, the user can apply discount coupons. If the coupon is invalid or expired, an error message is shown.
+
+User proceeds to payment using a credit card. If payment fails, the user can retry up to 2 times before the order is cancelled.
+
+On successful payment, an order confirmation is generated and sent to the user via email.
