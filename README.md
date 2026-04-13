@@ -8,19 +8,19 @@ In a typical delivery lifecycle, teams manually convert meeting transcripts, pro
 -> Test cases
 
 
-🧩 Features
+🧩 Features :
 Generate Epics, User Stories & Acceptance Criteria
 Convert outputs into Jira-ready CSV format
 Generate Technical Design Documents (TDD)
 Generate Unit Test Scenarios (>90% coverage)
 Generate End-to-End Test Scenarios (>70% coverage)
 
-🛠️ Tech Stack
+🛠️ Tech Stack :
 Python
 AI API (Gemini / LLM-based)
 VS Code
 
-📂 Project Structure
+📂 Project Structure : 
 ai_sdlc_generator/
 │
 ├── inputs/
