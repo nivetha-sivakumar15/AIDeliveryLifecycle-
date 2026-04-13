@@ -1,17 +1,11 @@
 # AIDeliveryLifecycle
 AI-powered SDLC automation tool that converts business inputs into user stories, TDDs, and test scenarios for faster delivery lifecycle execution.
 
-🎯 Use Case
-In a typical delivery lifecycle, teams manually convert:
-
-Meeting transcripts
-Process flows
-
-into:
-
-User stories
-Design documents
-Test cases
+🎯 Use Case : 
+In a typical delivery lifecycle, teams manually convert meeting transcripts, process flows into :
+-> User stories
+-> Design documents
+-> Test cases
 
 
 🧩 Features
